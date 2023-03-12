@@ -26,9 +26,13 @@ Usage
 
 3.  Input the start and goal coordinates:
 
-4.  `visualize.py` includes the visualization of obstacle space on the canvas:
+Implementation
+-----
+1.  `main.py` : RUN this code to implement the Algorithm and visualize
 
-5.  `dijkstra_aditya_chaugule` executes Dijkstra's Algorithm for robot path planning on the canvas:
+2.  `visualize.py` : includes the visualization of obstacle space on the canvas:
+
+3.  `dijkstra_aditya_chaugule.py` : executes Dijkstra's Algorithm for robot path planning on the canvas:
 
 
 License
