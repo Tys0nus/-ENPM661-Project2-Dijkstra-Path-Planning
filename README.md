@@ -18,45 +18,18 @@ Usage
 
 1.  Clone the repository:
 
-    bashCopy code
-
     `git clone https://github.com/aditya-chaugule/dijkstra-path-planning.git
     cd dijkstra-path-planning`
 
-2.  Import the `dijkstra_aditya_chaugule` module:
-
-    pythonCopy code
-`python main.py`
+2.  RUN `main.py` to execute the project:
+    `python main.py`
 
 3.  Input the start and goal coordinates:
 
-    pythonCopy code
+4.  `visualize.py` includes the visualization of obstacle space on the canvas:
 
-    `x, y = [int(x) for x in input("Enter the Start Coordinates: ").split()]
+5.  `dijkstra_aditya_chaugule` executes Dijkstra's Algorithm for robot path planning on the canvas:
 
-    if not (0 <= x < 600) or not (0 <= y < 250):
-        raise ValueError("Start coordinates are not acceptable")
-
-    start = (x,y)
-
-    x, y = [int(x) for x in input("Enter the Goal Coordinates: ").split()]
-
-    if not (0 <= x < 600) or not (0 <= y < 250):
-        raise ValueError("Goal coordinates are not acceptable")
-
-    goal = (x,y)`
-
-4.  Visualize the start and goal points on the canvas:
-
-    pythonCopy code
-
-    `canvas = vis.visualize(start,goal)`
-
-5.  Execute Dijkstra's Algorithm on the canvas:
-
-    pythonCopy code
-
-    `djk.execute(canvas,start,goal)`
 
 License
 -------
