@@ -39,3 +39,17 @@ License
 -------
 
 This project is licensed under the MIT License - see the [LICENSE](https://chat.openai.com/LICENSE) file for details.
+
+
+Tested Environment
+------------------
+
+The code has been tested using Python 3.10.
+
+Author
+------
+
+Aditya Chaugule\
+Graduate Student\
+Master of Engineering in Robotics\
+University of Maryland, College park
